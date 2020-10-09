@@ -17,6 +17,10 @@ header .carousel-inner .carousel-caption h2{
         flex: 0%;
         max-width: 0%;
     }
+    
+ .xmPhone .col-sm-2 {
+        padding:0px;
+    }
 
         
 }
