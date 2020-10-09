@@ -36,7 +36,7 @@ header .carousel-inner .carousel-caption h2{
 }
 
 @media(max-width : 400px){
-    .logoContainer{
+    .adapt{
         display: none;
     }       
 }
