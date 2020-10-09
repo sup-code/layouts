@@ -1,29 +1,49 @@
 body{
     overflow-x: hidden;
 }
-.cont{
-    background-image: url("../img/bg1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
+
+header .carousel-inner .carousel-caption h2{
+    font-size: 50px;
 }
 
-.slog{
-    color: azure; 
-    text-align: right;
-}
+@media(max-width : 500px){
+    .adapt{
+        font-size: 16px;  
+    }
 
-@media(max-width : 1000px){
-    .slog{
-        text-align: center;
+    header .carousel-inner .carousel-caption h2{
+        font-size: 20px;
+    }
+
+    .logo{
+        height: 40px;
+        width: 40px;
     }
         
 }
 
+@media(max-width : 324px){
+    .adapt{
+        font-size: 11px;       
+    }    
+}
+
+
+@media(max-width : 991px){
+    .navbar-nav{
+        text-align: center;
+    }      
+}
+
+@media(max-width : 400px){
+    .logoContainer{
+        display: none;
+    }       
+}
+
 .carousel-item{
     height: 100vh;
-    min-height: 350px;
+    min-height: 500px;
     background: no-repeat center center scroll;
     background-size: cover;
 }
