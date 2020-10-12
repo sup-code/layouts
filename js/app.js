@@ -1,3 +1,4 @@
+Aos.init()
 window.onload = function (param) { 
     let nav = document.querySelector(".navbar");
     let slog = document.querySelector(".slog")
