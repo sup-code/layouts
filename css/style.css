@@ -68,3 +68,9 @@ header .carousel-caption{
     left: auto;
     top: 20px;
 }
+
+.h2Style{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(255, 145, 0);
+}
