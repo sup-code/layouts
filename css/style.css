@@ -41,14 +41,30 @@ header .carousel-inner .carousel-caption h2{
     }       
 }
 
-.carousel-item{
+.screen-adapt{
     height: 100vh;
     min-height: 500px;
     background: no-repeat center center scroll;
     background-size: cover;
 }
 
-.carousel-caption{
+header .carousel-caption{
     top: 50%;
     transform: translate(0%,-50%);
+}
+
+/**
+    a-propos
+*/
+.img-container{
+    background-color: rgb(255, 152, 68);
+    position: relative;
+    top: 0px;
+}
+
+.image{
+    position: relative;
+    right: -5%;
+    left: auto;
+    top: 20px;
 }
