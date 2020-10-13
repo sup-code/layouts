@@ -2,6 +2,10 @@ body{
     overflow-x: hidden;
 }
 
+.ov-x-hidden{
+    overflow-x: hidden;
+}
+
 header .carousel-inner .carousel-caption h2{
     font-size: 50px;
 }
