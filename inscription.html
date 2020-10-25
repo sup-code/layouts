@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>CONNEXION-CLUB</title>
+  <link rel="icon" type="image/jpeg" sizes="874x945" href="./img/Logo_Club_Info.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#ff7700;">
+    <div class="container">
+      <div class="navbar-brand logoContainer">
+        <a href="./index.html"><img src="./img/Logo_Club_Info.png" width="50px" height="50px" alt="" srcset=""
+            class="logo" /></a>
+      </div>
+      <a class="navbar-brand" href="#"><span class="adapt">SUPPTIC CLUB INFORMATIQUE</span> </a>
+      <button class="navbar-toggler" type="button" id="btn">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto" style="font-size: large;" id="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Accueil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./apropos.html">
+              <nobr>&Agrave;-propos</nobr>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./inscription.html">Inscription<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./connexion.html">Connexion</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacts.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="slide-bar">
+    <div class="close-side">X</div>
+    <ul id="big-move" class="to400" style="font-weight: bold; font-size: large;">
+      <li class="lien">
+        <a class="nav-link" href="./index.html">Accueil</a>
+      </li>
+      <li class="lien">
+        <a class="nav-link" href="./apropos.html"><nobr>&Agrave;-propos</nobr></a>
+      </li>
+      <li class="lien">
+        <a class="nav-link" href="./inscription.html">Inscription</a>
+      </li>
+      <li class="lien">
+        <a class="nav-link" href="./connexion.html">Connexion</a>
+      </li>
+      <li class="lien">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
+    <svg id="wave" class="wave" width="100%" height="100%" viewBox="0 0 200 900" version="1.1" preserveAspectRatio="none">
+      <path id="Tra1"
+            d="M200,0c0,0 -200,46.405 -200,177c0,130.595 126.228,90.241 149,287c22.772,196.759 51,436 51,436l32,0l-4,-900l-28,0Z" 
+            data-to="M0,0c0,0 0,46.405 0,177c0,130.595 1.152,98.101 0,296c-1.153,198.07 0,427 0,427l200,0l0,-900l-200,0Z"/>
+    </svg>
+  </div>
+
+
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox" >
+        <div class="carousel-item screen-adapt active" style="height:1%;background: url('./img/background/background-3.png')">
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeInLeft">
+              INSCRIVEZ <span style="color: rgb(255, 153, 29);">VOUS</span>
+            </h2>
+            <br /><br />
+            <p class="animate__animated animate__fadeInRight animate__delay-1s">Rejoignez notre communauté pour acceder aux avantages des membres.
+            </p>
+            <a class="animate__animated animate__fadeInRight animate__delay-1s" href="connexion.html" style="color: #fff;">Déja inscrit? Connectez vous ici!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- Start: 1 Row 1 Column -->
+    <div style="background-color: rgb(241,247,252);">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12" data-aos="zoom-in" data-aos-duration="500" style="margin-top: 29px;">
+                  <h5><strong>DEVENEZ MEMBRES</strong></h5>
+                  <p style="font-family: Convergence, sans-serif;font-size: 19px;"><br>Les nouveaux membres sont toujours les bienvenus. Entrez vos coordonnées dans le formulaire ci-dessous pour vous inscrire en tant que membre.<br><br></p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- End: 1 Row 1 Column -->
+  <!-- Start: Login Form Clean -->
+  <div class="login-clean" >
+      <form method="post" style="max-width: 599px;" data-aos="fade-down-left" data-aos-duration="900" data-aos-delay="100">
+          <h2 class="sr-only">Login Form</h2>
+          <div class="illustration"><img src="./img/icons/navigate.png" width="80px" height="80px" alt="" srcset=""></div>
+          <div class="form-group"><input class="form-control" type="text"  name="first_name" placeholder="Votre nom"></div>
+          <div class="form-group"><input class="form-control" type="text"  name="last_name" placeholder="Votre prenom"></div>
+          <div class="form-group"><input class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"  name="b_day" placeholder="Date de naissance"></div>
+          <div class="form-group"><input class="form-control" type="email"  name="email" placeholder="Email"></div>
+          <div class="form-group"><input class="form-control" type="tel"  name="phone" placeholder="Numero de téléphone"></div>
+          <div class="form-group"><input class="form-control" type="password"  name="password" placeholder="Mot de passe"></div>
+          <div class="form-group"><input class="form-control" type="password"  name="password_confirmatio" placeholder="Confirmer"></div>
+          <div class="form-group">
+            <select class="form-control"  name="formation" id="activeCycle">
+              <option value="" disabled selected>Votre formation</option>
+              <option value="Ingenieur">Ingenieur</option>
+              <option value="Inspecteur">Inspecteur</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control" name="formation" id="activeLevel" disabled>
+              <option value="" disabled selected>Votre cycle</option>
+              <option value="Licence">Licence</option>
+              <option value="Master">Master</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control" name="formation" id="activeClass" disabled>
+              <option value="" disabled selected>Votre Niveau</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control" name="formation" id="classes" disabled>
+              <option value="" disabled selected>Votre classe</option>
+            </select>
+          </div>
+          <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: #ff7700e7;">INSCRIPTION</button></div>
+          <a class="forgot" href="./connexion.html">Vous etes membre? connectez vous</a>
+      </form>
+  </div>
+  <!-- End: Login Form Clean -->
+
+    
+
+  <div class="bg-dark text-light" style="font-family: 'calibri light',sans-serif,'sweden sans','calibri';">
+    <div style="margin-left: 50px; margin-right: 50px">
+      <div class="row">
+        <div class="p-4 col-lg-3">
+          <h2 class="mb-4 h3">Club Informatique</h2>
+          <p>
+            &Eacute;cole Nationale supérieure des postes, des télécommunications et
+            des Technologies de l'information et de la communication (SUPPTIC)
+          </p>
+        </div>
+        <div class="p-4 col-lg-3 text-center">
+          <h2 class="mb-4 h3">Liens</h2>
+          <ul class="list-unstyled text-light">
+            <a href="./index.html" class="text-light">Accueil</a>
+            <br />
+            <a href="./apropos.html" class="text-light">
+              <nobr>&Agrave;-propos</nobr>
+            </a>
+            <br />
+            <a href="./inscription.html" class="text-light">Inscription</a>
+            <br />
+            <a href="./connexion.html" class="text-light">Connexion</a>
+            <br />
+            <a href="./contacts.html" class="text-light">Contacts</a>
+          </ul>
+        </div>
+        <div class="p-4 col-lg-3 text-center">
+          <h2 class="mb-4 h3">Contacts</h2>
+          <a href="#" class="text-light">+237-6-90-90-90-90 </a><br />
+          <a href="#" class="text-light">sci@gmail.com</a><br />
+          <a href="#" class="text-light">SUPPTIC YAOUNDE</a><br><br>
+          <div class="row justify-content-center">
+            <div class="col-2"><img src="./img/icons/iconfinder_social-facebook-circle_771367.png" width="30px"
+                height="30px" alt="" srcset=""></div>
+            <div class="col-2"><img src="./img/icons/iconfinder_instagram_1632517.png" width="30px" height="30px" alt=""
+                srcset=""></div>
+            <div class="col-2"><img src="./img/icons/iconfinder_twitter_246011.png" width="30px" height="30px" alt=""
+                srcset=""></div>
+            <div class="col-2"><img src="./img/icons/iconfinder_Whats_App_2062095.png" width="30px" height="30px" alt=""
+                srcset=""></div>
+            <div class="col-2"><img src="./img/icons/iconfinder_discord_2308078.png" width="30px" height="30px" alt=""
+                srcset=""></div>
+          </div>
+        </div>
+        <div class="p-4 col-lg-3 text-center">
+          <h2 class="mb-4 h3">Newsletter</h2>
+          <form>
+            <fieldset class="form-group">
+              <label for="exampleInputEmail1">Recevez les informations en continu sur les activités du club</label>
+              <input type="email" class="form-control" placeholder="Votre Email" />
+            </fieldset>
+            <button type="submit" class="btn btn-warning">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center">
+            © Copyright 2020 SUPPTIC Club Informatique - All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/dynamics.min.js"></script>
+  <script src="./js/autoSelect.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</body>
+
+</html>
