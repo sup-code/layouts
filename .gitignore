@@ -1,0 +1,6 @@
+.vscode/*
+css/bootstrap
+js/bootstrap
+js/jquery
+js/popperjs
+node_modules

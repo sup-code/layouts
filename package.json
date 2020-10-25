@@ -1,0 +1,24 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stanley",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogneStanley/layouts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BogneStanley/layouts/issues"
+  },
+  "homepage": "https://github.com/BogneStanley/layouts#readme"
+}
